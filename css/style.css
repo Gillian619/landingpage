@@ -1,0 +1,75 @@
+body {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F0F2F0;
+    background-color: #585959;
+}
+
+a {
+    text-decoration: none;
+    color: #F0F2F0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+    background: #202022;
+}
+
+nav {
+    display: flex;
+}
+
+#menu {
+    display: flex;
+}
+
+menu p {
+    margin-left: 10px;
+}
+
+#menu p a {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #8B8C8C;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#carte {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.feat {
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #202022;
+}
+
+#exemple {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+#contact {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: #202022;
+}
+
+footer {
+    background-color: #202022;
+}
